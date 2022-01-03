@@ -5,3 +5,23 @@ body{
 h1{
     font-size: 50px;
 }
+.color-org{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 100%;
+}
+.hire-btn{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orange , tomato);
+    padding: 10px 30px;
+    border-radius: 5px;
+}
