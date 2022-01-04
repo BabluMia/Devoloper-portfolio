@@ -9,11 +9,13 @@ h1{
 .color-org{
     color: orange;
 }
-section{
+.flex{
     display: flex;
+    margin-bottom: 100px;
 }
 .top-banner{
-    background: url(../images/top-banner.png) no-repeat;
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
 }
 .half-width{
     width: 50%;
@@ -25,10 +27,15 @@ section{
 .half-width p{
     margin-bottom: 35px;
 }
-.hire-btn{
+.btn{
     text-decoration: none;
     color: white;
     background-image: linear-gradient(orange , tomato);
     padding: 10px 30px;
     border-radius: 5px;
+}
+.d-area-bg{
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right bottom;
 }
