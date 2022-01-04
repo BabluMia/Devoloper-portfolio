@@ -6,6 +6,12 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
 .color-org{
     color: orange;
 }
@@ -39,3 +45,30 @@ h1{
     background-repeat: no-repeat;
     background-position:right bottom;
 }
+.e-area{
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left center;
+}
+.s-card{
+    padding: 35px 20px;
+    box-shadow: -1px 4px 47px 5px rgba(31,112,75,0.77);
+    -webkit-box-shadow: -1px 4px 47px 5px rgba(31,112,75,0.77);
+    -moz-box-shadow: -1px 4px 47px 5px rgba(31,112,75,0.77);
+    margin: 0px 40px;
+}
+.border1{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+.border2{
+    border-left: 5px solid;
+    border-image: linear-gradient(to bottom, #3bd73b, #00ca6d, #00ba8a, #23a997, #599594);;
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+}
+
